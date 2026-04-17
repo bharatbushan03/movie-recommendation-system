@@ -3,3 +3,7 @@ pandas
 joblib
 requests
 scikit-learn
+fastapi
+uvicorn
+pytest
+pydantic
