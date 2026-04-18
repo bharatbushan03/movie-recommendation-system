@@ -4,7 +4,7 @@ import streamlit as st
 
 st.set_page_config(page_title="MovieMate", page_icon="🎬", layout="wide")
 
-API_BASE_URL = os.getenv("API_BASE_URL", "http://127.0.0.1:8000")
+API_BASE_URL = os.getenv("API_BASE_URL", "https://movie-recommendation-system-jroq.onrender.com")
 OMDB_API_KEY = os.getenv("OMDB_API_KEY", "YOUR_OMDB_API_KEY")
 PLACEHOLDER_POSTER = "https://via.placeholder.com/300x450?text=No+Poster"
 
